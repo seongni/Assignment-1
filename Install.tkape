@@ -1,0 +1,14 @@
+Description: Install
+Author: Seongeun Park
+Version: 1.0
+Id: d674c8f6-95f3-4dd6-bcd0-2441f34bb762
+RecreateDirectories: true
+Targets:
+    -
+        Name: Install
+        Category: Windows
+        Path: C:\Windows\appcompat\Programs\Install
+        FileMask: 'INSTALL_*.txt'
+
+# Documentation
+# https://digital-forensics.sans.org/media/DFIR-Command-Line.pdf

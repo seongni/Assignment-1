@@ -1,0 +1,15 @@
+Description: Windows Search/Cortana MRU
+Author: Seongeun Park
+Version: 1.0
+Id: cf0a1adc-e0a4-4a02-a864-d2b3b7681a6b
+RecreateDirectories: true
+Targets:
+    -
+        Name: Install Log
+        Category: Programs
+        Path: C:\Users\seong\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\LocalState\DeviceSearchCache
+        FileMask: 'AppCache*.txt'
+
+
+# Documentation
+# https://digital-forensics.sans.org/media/DFIR-Command-Line.pdf
